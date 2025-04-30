@@ -135,7 +135,7 @@ model = ChatGoogleGenerativeAI(api_key=api_key, model="gemini-1.5-flash")
 # STREAMLIT UI (Chatbot)
 #########################################
 st.set_page_config(page_title="🛍 AI Shopping Assistant", layout="wide")
-st.title("🛍 AI Shopping Assistant")
+st.title("🛍 Clothing Shopping AI Assistant")
 st.markdown("""
     <style>
         body {
